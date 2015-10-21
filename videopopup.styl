@@ -1,0 +1,85 @@
+@import "nib"
+
+
+$font-size = 12
+
+body
+	background red
+	font $font-size Helvetica, Arial, Sans serif
+	margin 0
+
+	div.caca
+		margin 10px 0 0 0
+		padding 10px
+
+section
+	margin 10px
+	padding 30px 10px
+
+.container
+	margin 0
+	padding 0
+
+.row
+	margin 0
+	padding 0
+
+.wrap_principal
+	background olive
+	border 1px solid red
+	color #999999
+	text-align center
+	width 100%
+
+nav
+	color #ccc
+	font-weight 100
+	text-align left
+	text-transform uppercase
+	
+	ul
+		display block
+		margin 0
+		padding 3px
+		
+		li
+			background #ccc
+			border-radius 5px
+			color #333
+			display inline-block
+			text-align center
+			transition all 0.2s ease-out 0s
+
+#comments
+	border-radius 4px
+	box-shadow 0 0 1px #ccc
+	p
+		opacity 0.8
+
+#comments
+	h1
+		font-size 14px
+	a
+		color #666666
+		opacity 0.75
+		transition all 0.2s ease-out 0s
+		
+		&:hover
+			color orange
+			opacity 1
+
+.cf
+	clearfix()
+	
+#slogan
+	hide-text()
+	
+.col-md-12
+	.main-principal
+		text-align left
+		color #999999
+		background #ebebeb
+		border 1px solid #cccccc
+		padding 5px
+		margin 10px 5px 5px
+

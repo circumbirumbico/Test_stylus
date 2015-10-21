@@ -1,0 +1,107 @@
+body {
+  background: #f00;
+  font: 12 Helvetica, Arial, Sans serif;
+  margin: 0;
+}
+body div.caca {
+  margin: 10px 0 0 0;
+  padding: 10px;
+}
+section {
+  margin: 10px;
+  padding: 30px 10px;
+}
+.container {
+  margin: 0;
+  padding: 0;
+}
+.row {
+  margin: 0;
+  padding: 0;
+}
+.wrap_principal {
+  background: #808000;
+  border: 1px solid #f00;
+  color: #999;
+  text-align: center;
+  width: 100%;
+}
+nav {
+  color: #ccc;
+  font-weight: 100;
+  text-align: left;
+  text-transform: uppercase;
+}
+nav ul {
+  display: block;
+  margin: 0;
+  padding: 3px;
+}
+nav ul li {
+  background: #ccc;
+  -webkit-border-radius: 5px;
+  border-radius: 5px;
+  color: #333;
+  display: inline-block;
+  text-align: center;
+  -webkit-transition: all 0.2s ease-out 0s;
+  -moz-transition: all 0.2s ease-out 0s;
+  -o-transition: all 0.2s ease-out 0s;
+  -ms-transition: all 0.2s ease-out 0s;
+  transition: all 0.2s ease-out 0s;
+}
+#comments {
+  -webkit-border-radius: 4px;
+  border-radius: 4px;
+  -webkit-box-shadow: 0 0 1px #ccc;
+  box-shadow: 0 0 1px #ccc;
+}
+#comments p {
+  opacity: 0.8;
+  -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=80)";
+  filter: alpha(opacity=80);
+}
+#comments h1 {
+  font-size: 14px;
+}
+#comments a {
+  color: #666;
+  opacity: 0.75;
+  -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=75)";
+  filter: alpha(opacity=75);
+  -webkit-transition: all 0.2s ease-out 0s;
+  -moz-transition: all 0.2s ease-out 0s;
+  -o-transition: all 0.2s ease-out 0s;
+  -ms-transition: all 0.2s ease-out 0s;
+  transition: all 0.2s ease-out 0s;
+}
+#comments a:hover {
+  color: #ffa500;
+  opacity: 1;
+  -ms-filter: none;
+  filter: none;
+}
+.cf {
+  zoom: 1;
+}
+.cf:before,
+.cf:after {
+  content: "";
+  display: table;
+}
+.cf:after {
+  clear: both;
+}
+#slogan {
+  text-indent: 101%;
+  white-space: nowrap;
+  overflow: hidden;
+}
+.col-md-12 .main-principal {
+  text-align: left;
+  color: #999;
+  background: #ebebeb;
+  border: 1px solid #ccc;
+  padding: 5px;
+  margin: 10px 5px 5px;
+}
